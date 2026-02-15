@@ -18,7 +18,7 @@ export const StarReport: React.FC<StarReportProps> = ({ bids, onBack }) => {
 
         <div className="space-y-4">
           {bids.map((bid, idx) => (
-            <div key={idx} className="p-4 bg-[#2B2B2B]/5 rounded-lg border-l-4 border-[#7A4A34] flex justify-between items-center">
+            <div key={idx} className="p-3 bg-[#2B2B2B]/5 rounded-lg border-l-4 border-[#7A4A34] flex justify-between items-center">
               <div className="flex items-center gap-1 text-[#EAB308]">
                 {Array.from({ length: bid.stars }).map((_, i) => (
                   <StarIcon key={i} className="w-5 h-5" />
