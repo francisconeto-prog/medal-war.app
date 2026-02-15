@@ -33,7 +33,7 @@ export const AllocationReport: React.FC<AllocationReportProps> = ({ allocations,
 
         <div className="space-y-4">
           {allocations.map((alloc, idx) => (
-            <div key={idx} className="p-2 bg-[#2B2B2B]/5 rounded-lg border-l-4 border-[#6E8B3D]">
+            <div key={idx} className="p-1 bg-[#2B2B2B]/5 rounded-lg border-l-4 border-[#6E8B3D]">
               <p className="text-sm font-bold leading-relaxed text-[#2B2B2B]">
                 ALOCAÇÃO {idx + 1}: <TerritorySpan id={alloc.territory} /> recebe <span className="text-[#6E8B3D] text-lg mx-1">{alloc.armyCount}</span> exércitos
               </p>
