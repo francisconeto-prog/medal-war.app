@@ -26,7 +26,7 @@ export const AllocationReport: React.FC<AllocationReportProps> = ({ allocations,
 
   return (
     <div className="flex flex-col gap-8 animate-in fade-in duration-500">
-      <div className="bg-white p-6 rounded-2xl border-2 border-[#2B2B2B]/10 shadow-2xl">
+      <div className="bg-white p-4 rounded-2xl border-2 border-[#2B2B2B]/10 shadow-2xl">
         <h2 className="military-font text-xl font-black text-center mb-8 tracking-[0.2em] text-[#2B2B2B] border-b border-[#2B2B2B]/10 pb-4">
           RELATÓRIO DE ALOCAÇÃO
         </h2>
