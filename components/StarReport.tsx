@@ -25,7 +25,7 @@ export const StarReport: React.FC<StarReportProps> = ({ bids, onBack }) => {
                 ))}
               </div>
               <p className="text-xs font-black text-[#2B2B2B]">
-                APOSTA: <span className="text-[#7A4A34] text-lg ml-2">{bid.amount || 0}</span> estrelas
+                APOSTA: <span className="text-[#7A4A34] text-lg ml-1">{bid.amount || 0}</span> estrelas
               </p>
             </div>
           ))}
