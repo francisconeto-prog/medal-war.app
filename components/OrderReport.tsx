@@ -32,7 +32,7 @@ export const OrderReport: React.FC<OrderReportProps> = ({ special, conventional,
 
   return (
     <div className="flex flex-col gap-8 animate-in fade-in duration-500">
-      <div className="bg-white p-6 rounded-2xl border-2 border-[#2B2B2B]/10 shadow-2xl">
+      <div className="bg-white p-4 rounded-2xl border-2 border-[#2B2B2B]/10 shadow-2xl">
         <h2 className="military-font text-xl font-black text-center mb-8 tracking-[0.2em] text-[#2B2B2B] border-b border-[#2B2B2B]/10 pb-4">
           RELATÓRIO DE MISSÃO
         </h2>
@@ -59,7 +59,7 @@ export const OrderReport: React.FC<OrderReportProps> = ({ special, conventional,
             <div className="flex flex-col gap-4">
               <span className="text-[10px] text-[#2B2B2B]/40 font-black tracking-widest uppercase">Ordens Convencionais</span>
               {conventional.map((order, idx) => (
-                <div key={idx} className="p-3 bg-[#2B2B2B]/5 rounded-lg border-l-4 border-[#6E8B3D]">
+                <div key={idx} className="p-2 bg-[#2B2B2B]/5 rounded-lg border-l-4 border-[#6E8B3D]">
                   <p className="text-sm font-bold leading-relaxed text-[#2B2B2B]">
                     ORDEM {idx + 1}: <TerritorySpan id={order.origin} /> ataca com <span className="text-[#6E8B3D] text-lg mx-1">{order.armyCount}</span> em <TerritorySpan id={order.destination} />
                   </p>
