@@ -24,7 +24,7 @@ export const StarReport: React.FC<StarReportProps> = ({ bids, onBack }) => {
                   <StarIcon key={i} className="w-5 h-5" />
                 ))}
               </div>
-              <p className="text-sm font-black text-[#2B2B2B]">
+              <p className="text-xs font-black text-[#2B2B2B]">
                 APOSTA: <span className="text-[#7A4A34] text-lg ml-2">{bid.amount || 0}</span> estrelas
               </p>
             </div>
